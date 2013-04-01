@@ -1,0 +1,7 @@
+uwsgi:
+  wsgi-file: ./app.py
+  socket: 127.0.0.1:3031
+  workers: 4
+  pythonpath: /Library/Python/2.7/site-packages
+  pythonpath: /System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7
+  daemonize: logs/a.log
